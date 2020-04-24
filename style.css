@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito&display=swap);
+
+*{font-family: 'Nunito', sans-serif;
+ 
+  background: 	#DCDCDC;
+  color:#DCDCDC;
+  }
+
+  
+.difficulty{
+  /* margin:0 auto; */
+  margin-top: 20px;
+  background: black;
+ 
+  font-family: 'Open Sans', sans-serif;
+  border-color: aqua;
+  border-radius: 8px;
+  border-width: 50px;
+  min-height: 400px;
+  min-width: 600px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* align-items: center; */
+}
+
+h1{
+  text-align: center;
+  color:#DCDCDC;
+  
+  background-color: grey;
+  
+    
+  /* color:black; */
+  border-radius: 8px ;
+  
+  border-color: hotpink;
+  margin:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-family: 'Nunito', sans-serif;
+  /* text-align: center; */
+  /* justify-content: center; */
+ 
+}
+
+/* p{
+  color:#fff;
+  text-align: center;
+  padding-top: 500px;
+  font-size: 10px;
+} */
+
+/* a{
+   text-decoration:none;
+   color:#fff; */
+/* } */
+
+/* a:hover{
+   color:#2ecc71;
+} */
+
+/* .difficulty{
+  width: 100%;
+  justify-items: center;
+} */
+
+.difficulty-buttons{
+  /* width: 30%; */
+  margin:30px;
+  float: left;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  /* margin:0 auto; */
+  
+  /* align-items: center; */
+  /* background-color:; */
+ 
+  
+}
+
+.button-styling{
+  /* text-align: center; */
+  cursor: pointer;
+  font-size:24px;
+  font-weight: bolder;
+  /* margin: 0 0 0 100px; */
+  
+}
+/* #startButton
+{
+  
+  text-align: center;
+  justify-content: center;
+  display:inline-block;
+  background-color: hotpink;
+  
+}
+.start-button{
+  align-content: center;
+  justify-content: center;
+  display:inline-block;
+  
+} */
+.button-styling {
+    position: relative;
+    background-color: #910841;
+  
+    border: none;
+    padding: 20px;
+    min-width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#difficulty-h1{
+    margin:0 auto
+    
+}
+.easy-mode:hover{
+    background:#fff;
+
+}
+.medium-mode:hover{
+    background:#fff;
+}
+.hard-mode:hover{
+    background:#fff
+    
+}
+
+.button-styling:hover{
+   /* background:#fff; */
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-styling:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-styling:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
