@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="css/style.css" 
+    type="text/css" />
+    <title>Quiz Time</title>
+    
+</head>
+
+<body>
+
+    
+  <div id="difficulty-h1">
+    <h1 id="h1Id">Welcome to the quiz, please choose difficulty</h1>
+</div>
+  <div class="difficulty">
+  
+    <div id="score" style="display: none"></div>
+    <!-- <div id=startButton>
+    
+    <input type="button" class="button-styling easy-mode start-button"
+       value="Start" id ="starting-btn" onclick="displayQuestions()">
+      </div> -->
+    <div class="difficulty-buttons">
+      
+    </div>
+    <div class="difficulty-buttons">
+      <input type="button" class="button-styling easy-mode"
+       value="Easy" id ="easy-btn" onclick="createQuestions(this.value,this.id)">
+    </div>
+    <div class="difficulty-buttons">
+      <input type="button"  class="button-styling medium-mode" id="medium-btn" value="Medium" onclick="createQuestions(this.value,this.id)">
+    </div>
+    <div class="difficulty-buttons">
+      <input type="button" 
+      class="button-styling hard-mode" id="hard-btn" 
+      value="Hard" onclick="createQuestions(this.value,this.id)">
+    </div>
+    
+  </div>
+  <script src="functions.js"></script>
+</body>
+
+
+</html>
