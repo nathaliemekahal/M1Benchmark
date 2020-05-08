@@ -1,0 +1,187 @@
+
+body{
+    background-color: #D8D8D8;
+   
+}
+
+
+.navbar{
+    box-sizing: border-box;
+   
+    height: 56px;
+    width: 100%;
+    padding: 0 2%;
+    color: #ccc;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+    -webkit-tap-highlight-color: transparent;
+}
+.pt-1{
+    padding-top: 0.6rem !important;
+}
+.nav-item{
+    padding-left: 10px;
+    text-transform: uppercase;
+
+}
+.section-title{
+    border-bottom: solid 1px #bfbfbf;
+    margin:1rem auto;
+    font-size: 1rem;
+    display: flex;
+    padding: 0 1px;
+}
+.title-wrapper{
+    padding-bottom: 10px;
+    padding-left: 7px;
+}
+ 
+nav::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background: url(imgs/navpic.jpg) repeat-x top center rgba(26,26,26,0.9);
+    z-index: -1;
+}
+
+.add-to-cart-btn{
+    position: absolute;
+    color: white;
+    background: linear-gradient(to bottom, #9EC441, #87B62E);
+    border-radius: 8px;
+    color: white;
+    right: -200px;
+    top: -20px;
+    height: 47px;
+    border: none;
+    transform: translateX(0);
+    transition: transform 0.6s ease 0.3s;
+    font-weight: bolder;
+    
+}
+.item__third:hover .add-to-cart-btn{
+    transform: translateX(-200px);
+
+}
+.icons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:start ;
+   
+}
+.icons-wrapper i{
+    width: 13px;
+    height: 13px;
+    color: #999
+}
+.my-badge{
+    background-color: transparent;
+    color: #404040;
+    font-weight: 700;
+    line-height: 12px;}
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-badge-wrapper{
+display: flex;
+}
+.badge-wrapper{
+    padding-top:8px;
+}
+.purple-btn{
+    background-color: #78387B;
+    color: white;
+    font-weight: bolder;
+    padding: 0.25rem;
+}
+.green-btn{
+    background-color: #87B62E;
+    color: white;
+    font-weight: bolder;
+    padding: 0.25rem;
+}
+.card-body{
+    padding: 0.75rem;
+    overflow: hidden;
+    transform: translateX(0);
+}
+.card:hover .icons-wrapper{
+  
+    transform: translateX(-50px);
+    display: flex;
+
+}
+.card{
+    box-shadow: 0 6px 40px rgba(0,0,0,0.3);
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+.card:hover .image-badge-wrapper #shopbtn{
+  display: block !important
+    
+}
+.footer-section{
+    
+    border-top:solid 1px #bfbfbf; ;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+
+
+
+
+
+
+.item__third{
+border-radius: 8px;
+ overflow: hidden;
+  
+}
+.multi-item-carousel {
+    overflow: hidden;
+  }
+  .multi-item-carousel .carousel-indicators {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .multi-item-carousel .carousel-control-prev, 
+  .multi-item-carousel .carousel-control-next {
+    background: rgba(255, 255, 255, 0.3);
+    width: 25%;
+    z-index: 11;  /* .carousel-caption has z-index 10 */
+  }
+  .multi-item-carousel .carousel-inner {
+    width: 150%;
+    left: -25%;
+  }
+  .carousel-inner > .carousel-item.next, 
+  .carousel-inner > .carousel-item.active.right {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+  }
+  .carousel-inner > .carousel-item.prev, 
+  .carousel-inner > .carousel-item.active.left {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+  }
+  .item__third {
+    float: left;
+    position: relative;  /* captions can now be added */
+    width: 33.33333333%;
+  }
+  .card{
+      background-color: #ECECEC;
+  }
+/* .col-6{
+    padding-left: 0 !important;
+} */
+  /* #78387B */
